@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body onload="loadTheme()">
+    <header>
+        <div class="header-top">
+            <i class="fas fa-bars"></i>     
+            <ul>
+                <li style="--x:1;"><a href="#">Trang chủ</a></li>
+                <li style="--x:2;"><a href="#">Đặc điểm</a></li>
+                <li style="--x:3;"><a href="#">Về chúng tôi</a></li>
+                <li style="--x:4;"><a href="#">Bộ sưu tập</a></li>
+                <li style="--x:5;"><a href="#">Đánh giá</a></li>
+                <li style="--x:6;"><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="logoipsum-265.svg" alt="">
+        </div>
+        <div>
+            <b class="hotline"><i class="fa-solid fa-phone"></i>HOTLINE:0352270339</b>
+            <div class="color">
+                <div id="c1"></div>
+                <div id="c2"></div>
+                <div id="c3"></div>
+            </div>
+        </div>
+        <div class="video-container">
+            <video src="video/street_-_19627 (1080p).mp4" autoplay muted loop></video>
+        </div>
+        <div class="header-content">
+            <h1>Khám phá</h1>
+            <p>Xách ba lô lên và đi thôi nào</p>
+            <form action="">
+                <h1>Bạn muốn đi đâu hè này</h1>
+                <p>Địa điểm</p>
+                <select name="" id="">
+                    <option value="#">--Chọn địa điểm--</option>
+                </select>
+                <p>Số người</p>
+                <input type="number" min="1" placeholder="Bạn đi bao nhiêu người">
+                <p>Ngày đi</p>
+                <input type="date">
+                <p>Ngày về</p>
+                <input type="date">
+                <button>Tìm Kiếm</button>
+            </form>
+        </div>
+    </header>
+    <!-------nice place--------->
+    <section class="nice-place">
+        <div class="container">
+            <h1 class="h1-style">Địa điểm nổi bật</h1>
+            <div class="nice-place-content row">
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="image/np1.jpg" alt="">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Tour Tây Bắc</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <p>Hà Nội, thủ đô của Việt Nam, nổi tiếng với kiến trúc trăm tuổi và nền văn hóa phong phú với sự ảnh hưởng của khu vực Đông Nam Á, Trung Quốc và Pháp.</p>
+                        <button class="btn">Mua Tour</button>
+                    </div>
+                </div>
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="image/np2.jpg" alt="">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Tour Hồ Chí Minh</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <p>Hà Nội, thủ đô của Việt Nam, nổi tiếng với kiến trúc trăm tuổi và nền văn hóa phong phú với sự ảnh hưởng của khu vực Đông Nam Á, Trung Quốc và Pháp.</p>
+                        <button class="btn">Mua Tour</button>
+                    </div>
+                </div>
+                <div class="nice-place-item">
+                    <div class="nice-place-img">
+                        <img src="image/np3.jpg" alt="">
+                    </div>
+                    <div class="nice-place-text">
+                        <h2>Tour Hà nội</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <p>Hà Nội, thủ đô của Việt Nam, nổi tiếng với kiến trúc trăm tuổi và nền văn hóa phong phú với sự ảnh hưởng của khu vực Đông Nam Á, Trung Quốc và Pháp.</p>
+                        <button class="btn">Mua Tour</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-----About------>
+<section class="about">
+    <div class="container">
+        <h1 class="h1-style">Về Chúng Tôi</h1>
+        <div class="about-content row">
+            <div class="about-content-left">
+                <img src="image/about.jpg" alt="">
+            </div>
+            <div class="about-content-right">
+                <h2>Tại sao bạn nên chọn chúng tôi?</h2>
+                <p>Chúng tôi là công ty hàng đầu về cung cấp dịch vụ lữ hành nội địa và quốc tế trong và ngoài nước</p>
+                <button class="btn">Tìm hiểu thêm</button>
+            </div>
+        </div>
+        <div class="service row">
+            <div class="service-item">
+                <img src="image/5-stars.png" alt="">
+                <p>Đặt phòng</p>
+            </div>
+            <div class="service-item">
+                <img src="image/customer-service.png" alt="">
+                <p>Dịch vụ 24/7</p>
+            </div>
+            <div class="service-item">
+                <img src="image/travel-guide.png" alt="">
+                <p>Guide book</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--banner anh sang-->
+<section class="banner">
+    <img src="image/anhbia2.jpg" alt="" width="100%" height="100%">
+</section>
+<!-----tour mua he 2023--> 
+<section class="tour">
+    <div class="container">
+        <h1 class="h1-style">Tour Summner 2023</h1>
+        <div class="tour-content row">
+            <div class="tour-content-item row">
+                <div class="tour-content-item-img">
+                    <img src="image/danang.jpg" alt="">
+                </div>
+                <div class="tour-content-item-text">
+                    <h2>Đà nẵng</h2>
+                    <p>Đà Nẵng là một thành phố trực thuộc trung ương, nằm trong vùng Duyên hải Nam Trung Bộ. Là thành phố trung tâm và lớn nhất khu vực miền Trung - Tây Nguyên.</p>
+                    <button class="btn">Khám phá</button>
+                </div>
+            </div>
+            <div class="tour-content-item row">
+                <div class="tour-content-item-img">
+                    <img src="image/hue.jpg" alt="">
+                </div>
+                <div class="tour-content-item-text">
+                    <h2>Huế</h2>
+                    <p>Huế là thành phố tỉnh lỵ của tỉnh Thừa Thiên Huế, Việt Nam. Huế từng là kinh đô của Việt Nam dưới triều Tây Sơn và triều Nguyễn. Hiện nay, thành phố là một trong những trung tâm về văn hóa – du lịch, y tế chuyên sâu, giáo dục đào tạo</p>
+                    <button class="btn">Khám phá</button>
+                </div>
+            </div>
+            <div class="tour-content-item row">
+                <div class="tour-content-item-img">
+                    <img src="image/hochiminh.webp" alt="">
+                </div>
+                <div class="tour-content-item-text">
+                    <h2>Thành phố Hồ Chí Minh</h2>
+                    <p>Thành phố Hồ Chí Minh (thường được gọi là Sài Gòn) là một thành phố ở miền nam Việt Nam nổi tiếng với vai trò nòng cốt trong chiến tranh Việt Nam.</p>
+                    <button class="btn">Khám phá</button>
+                </div>
+            </div>
+            <div class="tour-content-item row">
+                <div class="tour-content-item-img">
+                    <img src="image/hagiang.jpg" alt="">
+                </div>
+                <div class="tour-content-item-text">
+                    <h2>Hà Giang</h2>
+                    <p>Hà Giang là một tỉnh thuộc vùng Đông Bắc Bộ, Việt Nam. Năm 2018, Hà Giang là đơn vị hành chính Việt Nam đông thứ 48 về số dân</p>
+                    <button class="btn">Khám phá</button>
+                </div>
+            </div>
+            <div class="tour-content-item row">
+                <div class="tour-content-item-img">
+                    <img src="image/dongnai.webp" alt="">
+                </div>
+                <div class="tour-content-item-text">
+                    <h2>Đồng Nai</h2>
+                    <p>Biên Hòa là một thành phố công nghiệp và là tỉnh lỵ của tỉnh Đồng Nai, thuộc vùng Đông Nam Bộ, Việt Nam.</p>
+                    <button class="btn">Khám phá</button>
+                </div>
+            </div>
+            <div class="tour-content-item row">
+                <div class="tour-content-item-img">
+                    <img src="image/laichau.jpg" alt="">
+                </div>
+                <div class="tour-content-item-text">
+                    <h2>Lai Châu</h2>
+                    <p>Thành phố cách cửa khẩu Ma Lù Thàng (cửa khẩu quốc gia với nước Cộng hòa Nhân dân Trung Hoa) 50 km, cách thị xã Sa Pa (tỉnh Lào Cai) khoảng 70 km, cách Thủ đô Hà Nội khoảng 397 km (qua thành phố Lào Cai và thị xã Sa Pa)</p>
+                    <button class="btn">Khám phá</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------Review----->
+<section class="review">
+    <div class="container">
+        <h1 class="h1-style">Phản hồi</h1>
+        <div class="review-content row">
+            <div class="review-item">
+                <div class="review-item-text">
+                    <img src="image/comments.png" alt="">
+                    <p><span>&ldquo;</span>Đà Lạt còn được gọi là thành phố sương mờ, với khí hậu trong lành, mát mẻ rất phù hợp để nghỉ dưỡng, thư giãn sau những ngày làm việc mệt mỏi.<span>&rdquo;</span></p>
+                </div>
+                <div class="review-item-img row">
+                    <img src="image/nv1.jpg" alt="">
+                    <div class="review-item-img-text">
+                        <h2>Nguyễn Thị Hoa</h2>
+                        <p>Ngày 17/1/2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-item">
+                <div class="review-item-text">
+                    <img src="image/comments.png" alt="">
+                    <p><span>&ldquo;</span>Thành phố đã kiểm soát dịch bệnh thành công, kinh tế có sự phục hồi mạnh mẽ với tốc độ tăng trưởng<span>&rdquo;</span></p>
+                </div>
+                <div class="review-item-img row">
+                    <img src="image/nv2.jpg" alt="">
+                    <div class="review-item-img-text">
+                        <h2>Nguyễn Thị Lê</h2>
+                        <p>Ngày 17/1/2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-item">
+                <div class="review-item-text">
+                    <img src="image/comments.png" alt="">
+                    <p><span>&ldquo;</span>Đồng Nai nhằm khơi gợi sự thể hiện cảm xúc của con người về lịch sử hình thành, phát triển của vùng đất<span>&rdquo;</span></p>
+                </div>
+                <div class="review-item-img row">
+                    <img src="image/nv3.jpg" alt="">
+                    <div class="review-item-img-text">
+                        <h2>Nguyễn Thị Minh</h2>
+                        <p>Ngày 17/1/2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------sign up----->
+<section class="signup">
+    <h1 class="h1-style">Đăng ký</h1>
+    <div class="signup-content">
+        <input type="text" placeholder="Nhập email của bạn">
+        <button class="btn">Gửi</button>
+    </div>
+</section>
+<!--------contact---->
+<section class="contact">
+    <div class="container">
+        <h1 class="h1-style">Liên Hệ</h1>
+        <div class="contact-content-top row">
+            <div class="contact-content-item">
+                <input type="text" placeholder="Tên">
+            </div>
+            <div class="contact-content-item">
+                <input type="text" placeholder="Số điện thoại">
+            </div>
+            <div class="contact-content-item">
+                <input type="text" placeholder="Địa chỉ">
+            </div>
+            <div class="contact-content-item">
+                <input type="text" placeholder="Email">
+            </div>
+        </div>
+        <div class="contact-content-bottom">
+            <textarea placeholder="Nội dung"></textarea>
+            <button  class="btn">Gửi</button>
+        </div>
+    </div>
+</section>
+<footer>
+    <section>
+        <div class="column-0">
+        <h2>LIÊN HỆ</h2>
+        <hr  />
+            <p>Phường Tân Chánh Hiệp, Q.12, TP.HCM</p>
+            <p>Email: dulichvietnam@gmail.com</p>
+            <p>>Điện thoại: 123456789 - 0987654236</p>
+            <p>Mã số thuế: 0435437658</p>
+            <p>GPKD lữ hành quốc tế số 79-400/2015/TCDL</p>
+        </div>
+        <div class="column-0">
+        <H2>BẢN ĐỒ</H2>
+        <hr />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52719.86086985332!2d106.61674057448532!3d10.855083803971857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174f9296f07b72d%3A0x8f485a8c3064209d!2sAn%20Suong%20Bus%20Station!5e0!3m2!1sen!2s!4v1684980034766!5m2!1sen!2s" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="column-0">
+            <H2>KẾT NỐI</H2>
+            <hr />
+            <i class="fab fa-facebook">dichvuquocte</i>
+            <i class="fab fa-youtube">dichvuquocte</i>
+            <i class="fab fa-instagram">dichvuquocte</i>
+            <p style="text-align: center;"><b>Đăng ký nhận tin khuyến mại</b></p>
+            <input type="text"
+            placeholder="Nhập email nhận khuyến mại" width="50%" />
+            <button class="btn" style="margin-left: 150px;">ĐĂNG KÝ</button>
+        </div>
+    </section>
+</footer>
+    <img class="zalo" src="image/zalo-seeklogo.com.svg" alt="">
+    <img class="messenger" src="image/Facebook_Messenger_logo_2020.svg" alt="">
+
+    <script src="script.js"></script>
+</body>
+</html>
